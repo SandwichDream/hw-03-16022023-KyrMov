@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Blocks */
+div{
+    margin: 0 auto;
+    text-align: center;
+}
+.firstDiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.left,.right{
+    display: inline-block;
+    margin: auto 200px;
+}
+.secondDiv{
+    color: #8A6D2F;
+    background-color: #FAC960;
+    padding: 65px;
+}
+.thirdDiv{
+    padding: 100px;
+    background-color: #F2F2F2;
+    color: #00000066;
+}
+.thirdDiv h1{
+    color: #0000008F;
+}
+.fourthDiv{
+    color: #00000066;
+}
+.fourthDiv h1{
+    color: #0000008F;
+}
+
+/* Images */
+.round{
+    width: 40px;
+    padding: 40px;
+}
+.XXXxXXX{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+.ticon{
+    width: 35px;
+    height: 30px;
+    margin: 20px;
+}
+.infinit{
+    margin-top: 40px;
+    width: 134px;
+    height: 60px;
+}
+
+/* Inputs */
+input{
+    width: 300px;
+    padding: 5px 20px;
+    border: none;
+}
+
+/* Buttons */
+button{
+    padding: 0 25px;
+}
+.GetInInvite{
+    padding: 5px 20px;
+    background-color: #A8863D;
+    color: white;
+    border: none;
+}
+.GetInInvite:hover{
+    padding: 5px 20px;
+    background-color: #92773c;
+    color: white;
+    border: none;
+}
+.GetInInvite:active{
+    padding: 5px 20px;
+    background-color: #A8863D;
+    color: white;
+    border: none;
+}
