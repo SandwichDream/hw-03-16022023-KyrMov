@@ -11,12 +11,18 @@ div{
     text-align: center;
 }
 .firstDiv{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    padding: 0 30px;
 }
 .left,.right{
     display: inline-block;
-    margin: auto 200px;
+    width: 250px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
 }
 .secondDiv{
     color: #8A6D2F;
@@ -26,22 +32,17 @@ div{
 .thirdDiv{
     padding: 100px;
     background-color: #F2F2F2;
-    color: #00000066;
 }
-.thirdDiv h1{
+.thirdDiv h1,.fourthDiv h1{
     color: #0000008F;
 }
-.fourthDiv{
+.fourthDiv,.thirdDiv{
     color: #00000066;
-}
-.fourthDiv h1{
-    color: #0000008F;
 }
 
 /* Images */
-.round{
-    width: 40px;
-    padding: 40px;
+.logo{
+    margin: 10px;
 }
 .XXXxXXX{
     width: 30px;
